@@ -1,0 +1,369 @@
+.principal{
+    background-color: $BackgroundPrincipal;
+    h2{
+        font-size: $font-h2;
+        padding: 30px;
+    }
+    #principalH3{
+        font-size: $font-p;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        margin: 20px;
+    }
+    img{
+        border-radius: 20px;
+        border: solid $BackgroundFooter;
+        padding: 5px;
+        margin: 0 10px 30px 10px;
+        width: 90%;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+        transition: transform 0.3s ease-in-out;
+        &:hover {
+            transform: scale(1.1);
+    }
+} 
+    .principalSection{
+        flex-wrap: wrap;
+    }
+    .principalSectionDiv{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .principalArticle{
+        width: 30%;
+        justify-content: center;
+        margin: 0 0 20px 0;
+        h3{
+            border-radius: 20px 20px 0 0;
+        }
+        p{
+            border-radius: 0 0 20px 20px;
+        }
+    }
+    .principalTextos{
+        background-color: $BackgroundSecundario;
+        text-align: center;
+        padding: 10px;
+        justify-content: space-evenly;
+        margin: 0 10px;
+        width: 90%;
+    }
+}
+.hola{
+    background-color: $BackgroundSecundario;
+    margin-top: 80px;
+    display: flex;
+    .item4{
+        background-color: $BackgroundSecundario;
+        padding: 0px 30px;
+        margin: 80px 0 40px 0;
+        text-align: center;
+        @include caja-flex (center, center, wrap);
+        h2{
+            font-size: $font-h2;
+            padding: 0px;
+            color: $BackgroundPrincipal;
+            text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+            -webkit-text-stroke: 1px #424B54;
+            margin-top: 30px;
+        }
+        p{
+            font-size: $font-p;
+            color: #424B54;
+            display: flex;
+            justify-content: center;
+            padding: 0px 40px 20px 40px;
+            margin-bottom: 20px;
+        }
+        .btn{
+            background-color: #EBCFB2;
+            color: #424B54;
+            border-style: outset;
+            border-color: #B38D97;
+            font-size: $font-p;
+            padding: 10px 20px;
+            text-align: center;
+            letter-spacing: 1.6px;
+            text-decoration: none;
+            display: inline-block;
+            &:hover{
+                background-color: #B38D97;
+                transition: transform 0.3s ease-in-out;
+                transform: scale(1.1);
+                }
+        }
+    }
+    .holaImg{
+        border-radius: 20px;
+        border: solid $BackgroundFooter;
+        padding: 10px;
+        margin: 40px 100px 40px 20px;
+        width: 400px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+        transition: transform 0.3s ease-in-out;
+        transition: transform 0.3s ease-in-out;
+        &:hover {
+            transform: scale(1.1);}
+    }
+}
+.proy{
+    article{
+        display:flex;
+        @include caja-flex (space-around, center, nowrap);
+    }
+    p{
+        font-size: $font-p;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    h2{
+        font-size: $font-h2;
+        padding: 30px 30px 0 30px;
+    }
+    h3{
+        font-size: $font-h3;
+        padding: 10px 30px;
+    }
+    img{
+        border-radius: 20px;
+        border: solid $BackgroundFooter;
+        padding: 10px;
+        margin-bottom: 40px;
+        width: 55vh;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+        transition: transform 0.3s ease-in-out;
+        &:hover {
+            transform: scale(1.1);
+    }
+    }
+} 
+.proyectos{
+    background-image: linear-gradient(to right, #b38d97, #aa92a3, #a097a9, #999ca9, #989fa6);
+    article{
+        display:flex;
+        @include caja-flex (space-around, center, wrap);
+    }
+    p{
+        font-size: $font-p;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    h2{
+        font-size: $font-h2;
+        padding: 30px;
+    }
+    img{
+        border-radius: 20px;
+        border: solid $BackgroundFooter;
+        padding: 10px;
+        margin-bottom: 40px;
+        width: 350px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+        transition: transform 0.3s ease-in-out;
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}
+.sobreMi{
+    background-color: $BackgroundPrincipal;
+
+    .sobremi1{
+        background-color: $BackgroundSecundario;
+        margin-top: 80px;
+        display: flex;
+        p{
+            font-size: $font-p;
+            color: #424B54;
+            display: flex;
+            justify-content: center;
+            padding: 0px 40px 20px 40px;
+            margin-bottom: 20px;
+        }
+        h2{
+            font-size: $font-h2;
+            padding: 0px;
+            color: $BackgroundPrincipal;
+            text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+            -webkit-text-stroke: 1px #424B54;
+            margin-top: 30px;
+        }
+    }
+    .img1{
+        border-radius: 20px;
+        border: solid $BackgroundFooter;
+        padding: 10px;
+        margin: 40px 100px 40px 20px;
+        width: 30vw;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+        transition: transform 0.3s ease-in-out;
+    }
+    .section1{
+        background-color: $BackgroundSecundario;
+        padding: 0px 30px;
+        margin: 80px 0 40px 0;
+        text-align: center;
+        @include caja-flex (center, center, wrap);
+}
+    .sobremi2{
+        background-color: $BackgroundSecundario;
+        margin: 80px 0;
+        display: flex;
+        p{
+            font-size: $font-p;
+            color: #424B54;
+            display: flex;
+            justify-content: center;
+            padding: 0px 40px 20px 40px;
+            margin-bottom: 20px;
+        }
+        h2{
+            font-size: $font-h2;
+            padding: 0px;
+            color: $BackgroundPrincipal;
+            text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+            -webkit-text-stroke: 1px #424B54;
+            margin-top: 30px;
+        }
+    }
+    .img2{
+        border-radius: 20px;
+        border: solid $BackgroundFooter;
+        padding: 10px;
+        margin: 40px 20px 40px 100px;
+        width: 20vw;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+        transition: transform 0.3s ease-in-out;
+    }
+    .section2{
+        background-color: $BackgroundSecundario;
+        padding: 0px 30px;
+        margin: 80px 0 40px 0;
+        text-align: center;
+        @include caja-flex (center, center, wrap);
+    }
+}
+.portfolio{
+    background-image: linear-gradient(to right, #b38d97, #aa92a3, #a097a9, #999ca9, #989fa6);
+    article{
+        display:flex;
+        @include caja-flex (space-evenly, center, wrap);
+    }
+    h2{
+        font-size: $font-h2;
+        padding: 30px;
+    }
+    img{
+        border-radius: 20px;
+        border: solid $BackgroundFooter;
+        padding: 5px;
+        margin-bottom: 40px;
+        width: 30%;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+        transition: transform 0.3s ease-in-out;
+        &:hover {
+            transform: scale(1.1);
+    }
+    }
+}
+.contacto{
+    div{
+        h2{
+            background-color: $BackgroundSecundario;
+            font-size: $font-h2;
+            text-align: center;
+            padding: 20px;
+            margin: 100px 70px 0px 70px;
+            display: flex;
+            justify-content: center;
+            border-radius: 20px 20px 0 0;
+        }
+        p{
+            background-color: $BackgroundSecundario;
+            padding: 20px;
+            margin: 0px 70px 100px 70px;
+            font-size: $font-p;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            border-radius: 0 0 20px 20px;
+        }
+    }
+}
+
+form {
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid $BackgroundSecundario;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: $font-p;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid $BackgroundSecundario;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: $font-p;
+  }
+  
+  input[type="submit"] {
+    background-color: $BackgroundFooter;
+    color: $BackgroundPrincipal;
+    -webkit-text-stroke: 1px #424B54;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: $BackgroundSecundario;
+  }
+    
+    input[type="reset"] {
+        background-color: $BackgroundFooter;
+        color: $BackgroundPrincipal;
+        -webkit-text-stroke: 1px #424B54;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type="reset"]:hover {
+        background-color: $BackgroundSecundario;
+}
+.despedida{
+        background-color: $BackgroundSecundario;
+        padding: 20px;
+        margin: 100px 70px 0px 70px;
+        display: flex;
+        justify-content: center;
+        border-radius: 20px 20px 0 0;
+    }
+    #despedida{
+        background-color: $BackgroundSecundario;
+        padding: 20px;
+        margin: 0px 70px 150px 70px;
+        display: flex;
+        justify-content: center;
+        border-radius: 0 0 20px 20px;
+    }

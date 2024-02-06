@@ -1,0 +1,12 @@
+footer{
+    background-color: $BackgroundFooter;
+    section{
+        @include caja-flex (space-around, center, nowrap);
+        p{
+            padding: 10px;
+            a{
+                padding: 10px;
+            }
+        }
+    }
+}
